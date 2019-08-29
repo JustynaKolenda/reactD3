@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+button {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  margin: 1em;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+button:hover {
+  color: black;
+  background-color: #00baff;
+}
+button:focus {
+  border: 1px solid #00baff;
+}
+button:active {
+  background-color: #1f1f1f;
+  color: white;
+}
